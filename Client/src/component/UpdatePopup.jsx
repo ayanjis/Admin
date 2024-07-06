@@ -23,7 +23,7 @@ function UpdatePopup({ setShowUpdatePopup, popupContent, fetchData }) {
   }
 
   return (
-    <div id="popup-modal" tabIndex="-1" className="backdrop-blur-sm backdrop-brightness-50 flex justify-center items-center absolute top-0 left-0 z-50 h-screen w-screen">
+    <div id="popup-modal" tabIndex="-1" className="backdrop-blur-sm backdrop-brightness-50 flex justify-center items-center fixed top-0 left-0 z-50 h-screen w-screen">
       <div className="relative p-4 w-full max-w-md max-h-full">
         <div className=" bg-white rounded-lg shadow dark:bg-gray-700">
           <button type="button"

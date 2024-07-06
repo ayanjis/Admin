@@ -44,7 +44,7 @@ const Auth = () => {
   const usersArray = users.user
 
   return (
-    <div className='font-sans h-lvh p-5 flex flex-col items-center bg-gradient-to-tr from-red-100 to-gray-50 
+    <div className='font-sans h-lvh p-5 flex flex-col items-center bg-gradient-to-tr from-red-200 to-gray-50 
     max-[320px]:h-fit
     max-[375px]:h-fit
     max-[425px]:h-fit
@@ -52,9 +52,9 @@ const Auth = () => {
       <div className='w-full flex justify-center'>
         <div className='p-5 bg-gray-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 shadow-lg'>
           <div
-            className="max-w-fit bg-white rounded-md p-8 rounded-lg">
+            className="max-w-fit bg-gradient-to-t from-orange-50 to-slate-50 rounded-md p-8 rounded-lg">
             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl flex justify-center">Create New Users</h2>
-            <form className="flex justify-center my-6">
+            <form className="flex justify-center">
               <div className="flex flex-row items-center 
               max-[320px]:flex-col
               max-[375px]:flex-col
@@ -115,9 +115,9 @@ const Auth = () => {
                 </div>
 
                 <div className='h-full flex justify-end flex-col 
-                max-[320px]:w-full max-[320px]:mt-2
-                max-[375px]:w-full max-[375px]:mt-2
-                max-[425px]:w-full max-[425px]:mt-2
+                max-[320px]:w-full max-[320px]:mt-4
+                max-[375px]:w-full max-[375px]:mt-4
+                max-[425px]:w-full max-[425px]:mt-4
                 '>
                   <button type="submit"
                     onClick={addUser}
